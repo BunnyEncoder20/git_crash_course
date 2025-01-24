@@ -10,6 +10,10 @@ const newFeature3 = () => {
   console.log("This is Feature 3");
 };
 
+const newFeature4 = () => {};
+const newFeature5 = () => {};
+const newFeature6 = () => {};
+
 const HomePage = () => {
   // Call feature 1
   newFeature1();
@@ -25,6 +29,9 @@ const HomePage = () => {
 
   // newFeature 5
   newFeature5();
+
+  // newFeature 6
+  newFeature6();
 
   return <div>This is new file to commit</div>;
 };
