@@ -30,6 +30,9 @@ const HomePage = () => {
   // newFeature 6
   newFeature6();
 
+  // implementing bug fixes
+  console.log("Urgent bug fixed successfully");
+
   return <div>This is new file to commit</div>;
 };
 
