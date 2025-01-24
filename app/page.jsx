@@ -21,7 +21,10 @@ const HomePage = () => {
   newFeature3();
 
   // This feature is breaking the code in future
-  breakCodeFeature();
+  newFeature4();
+
+  // newFeature 5
+  newFeature5();
 
   return <div>This is new file to commit</div>;
 };
