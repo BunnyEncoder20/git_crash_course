@@ -24,9 +24,6 @@ const HomePage = () => {
   // feature 3
   newFeature3();
 
-  // This feature is breaking the code in future
-  newFeature4();
-
   // newFeature 5
   newFeature5();
 
