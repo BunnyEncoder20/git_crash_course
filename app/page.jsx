@@ -10,6 +10,10 @@ const newFeature3 = () => {
   console.log("This is Feature 3");
 };
 
+const newFeature7 = () => {
+  console.log("completed stashed feature 7");
+};
+
 const newFeature4 = () => {};
 const newFeature5 = () => {};
 const newFeature6 = () => {};
@@ -32,6 +36,9 @@ const HomePage = () => {
 
   // implementing bug fixes
   console.log("Urgent bug fixed successfully");
+
+  // working on new feature 7
+  newFeature7();
 
   return <div>This is new file to commit</div>;
 };
